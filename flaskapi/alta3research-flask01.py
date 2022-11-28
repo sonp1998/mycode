@@ -23,6 +23,8 @@ quotes = [
     "When you play the game of thrones, you win or you die. There is no middle ground. - Cersei"
     ]
 
+# homepage here
+
 @app.route("/quotes")
 def function1():
     return random.choice(quotes)
